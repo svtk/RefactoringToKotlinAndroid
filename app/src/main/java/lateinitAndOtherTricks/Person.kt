@@ -1,4 +1,4 @@
-package com.svtk.refactoringtokotlinandroid
+package lateinitAndOtherTricks
 
 import android.os.Parcel
 import android.os.Parcelable

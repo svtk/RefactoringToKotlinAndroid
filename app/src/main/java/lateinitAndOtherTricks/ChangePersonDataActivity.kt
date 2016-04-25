@@ -1,8 +1,10 @@
-package com.svtk.refactoringtokotlinandroid
+package lateinitAndOtherTricks
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import com.svtk.refactoringtokotlinandroid.PERSON
+import com.svtk.refactoringtokotlinandroid.R
 import kotlinx.android.synthetic.main.person_data.*
 import org.jetbrains.anko.onClick
 
@@ -34,7 +36,7 @@ class ChangePersonDataActivity : Activity() {
 //        newIntent.action = Intent.ACTION_INSERT_OR_EDIT
 //        newIntent.putExtra("status", "person_added")
         newIntent.putExtra(PERSON, person)
-        setResult(Activity.RESULT_OK, newIntent)
+        setResult(RESULT_OK, newIntent)
         super.onBackPressed()
     }
 }

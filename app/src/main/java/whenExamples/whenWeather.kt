@@ -1,4 +1,4 @@
-package com.svtk.refactoringtokotlinandroid
+package whenExamples
 
 import android.R.color.*
 

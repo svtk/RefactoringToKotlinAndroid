@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import lateinitAndOtherTricks.ChangePersonDataActivity
+import lateinitAndOtherTricks.Person
 import org.jetbrains.anko.startActivityForResult
 
 class MainActivity : ListActivity() {

@@ -1,4 +1,4 @@
-package com.svtk.refactoringtokotlinandroid
+package lateinitAndOtherTricks
 
 fun savePerson(person: Person) {
     if (person.name.isEmpty()) {
@@ -15,7 +15,7 @@ fun savePerson(person: Person) {
 }
 
 fun savePersonV2(person: Person) {
-    // local function:
+    // local function
     fun validate(value: String?, fieldName: String) {
         if (value.isNullOrEmpty()) {
             throw IllegalArgumentException(
